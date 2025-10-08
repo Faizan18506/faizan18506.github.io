@@ -20,9 +20,9 @@ export const projectsData: Project[] = [
     gradient: 'from-cyan-500 to-blue-600',
     githubLink: 'https://github.com/Faizan18506',
     screenshots: [
-      'https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3944454/pexels-photo-3944454.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/1294886/pexels-photo-1294886.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/projects/ecommerce-app/screenshot-1.jpg',
+      '/projects/ecommerce-app/screenshot-2.jpg',
+      '/projects/ecommerce-app/screenshot-3.jpg',
     ],
     features: [
       'User authentication with Firebase Auth',
@@ -44,9 +44,9 @@ export const projectsData: Project[] = [
     gradient: 'from-purple-500 to-pink-600',
     githubLink: 'https://github.com/Faizan18506',
     screenshots: [
-      'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/projects/social-media-platform/screenshot-1.jpg',
+      '/projects/social-media-platform/screenshot-2.jpg',
+      '/projects/social-media-platform/screenshot-3.jpg',
     ],
     features: [
       'Create and share posts with images and videos',
@@ -68,9 +68,9 @@ export const projectsData: Project[] = [
     gradient: 'from-green-500 to-teal-600',
     githubLink: 'https://github.com/Faizan18506',
     screenshots: [
-      'https://images.pexels.com/photos/4162449/pexels-photo-4162449.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/4058316/pexels-photo-4058316.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/projects/fitness-tracker/screenshot-1.jpg',
+      '/projects/fitness-tracker/screenshot-2.jpg',
+      '/projects/fitness-tracker/screenshot-3.jpg',
     ],
     features: [
       'Workout logging and tracking',
@@ -92,9 +92,9 @@ export const projectsData: Project[] = [
     gradient: 'from-blue-500 to-indigo-600',
     githubLink: 'https://github.com/Faizan18506',
     screenshots: [
-      'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/projects/weather-forecast/screenshot-1.jpg',
+      '/projects/weather-forecast/screenshot-2.jpg',
+      '/projects/weather-forecast/screenshot-3.jpg',
     ],
     features: [
       'Current weather conditions with detailed metrics',
@@ -116,9 +116,9 @@ export const projectsData: Project[] = [
     gradient: 'from-orange-500 to-red-600',
     githubLink: 'https://github.com/Faizan18506',
     screenshots: [
-      'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/projects/task-management/screenshot-1.jpg',
+      '/projects/task-management/screenshot-2.jpg',
+      '/projects/task-management/screenshot-3.jpg',
     ],
     features: [
       'Create and organize tasks with categories',
@@ -140,9 +140,9 @@ export const projectsData: Project[] = [
     gradient: 'from-yellow-500 to-orange-600',
     githubLink: 'https://github.com/Faizan18506',
     screenshots: [
-      'https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '/projects/restaurant-ordering/screenshot-1.jpg',
+      '/projects/restaurant-ordering/screenshot-2.jpg',
+      '/projects/restaurant-ordering/screenshot-3.jpg',
     ],
     features: [
       'Browse restaurants and menus',
