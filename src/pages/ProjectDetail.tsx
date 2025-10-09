@@ -88,7 +88,7 @@ export default function ProjectDetail() {
               <img
                 src={project.screenshots[selectedImage]}
                 alt={`${project.name} screenshot ${selectedImage + 1}`}
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[500px] object-contain bg-gray-900"
               />
             </div>
             <div className="grid grid-cols-3 gap-4 mt-4">
