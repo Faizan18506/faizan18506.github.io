@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Github, ExternalLink } from 'lucide-react';
+import { ArrowLeft, Github, Youtube } from 'lucide-react';
 import { projectsData } from '../data/projectsData';
 
 export default function ProjectDetail() {
@@ -65,20 +65,25 @@ export default function ProjectDetail() {
             ))}
           </div>
 
-          <div className="flex gap-4 mb-12">
+          <div className="flex flex-wrap gap-4 mb-12">
             <a
               href={project.githubLink}
               target="_blank"
               rel="noopener noreferrer"
-              className={`flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${project.gradient} text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 font-semibold`}
+              className="flex items-center gap-2 px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-all duration-300 font-semibold border border-gray-700 hover:scale-105"
             >
               <Github size={20} />
               <span>View on GitHub</span>
             </a>
-            <button className="flex items-center gap-2 px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-all duration-300 font-semibold border border-gray-700">
-              <ExternalLink size={20} />
-              <span>Live Demo</span>
-            </button>
+            <a
+              href={project.youtubeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${project.gradient} text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 font-semibold`}
+            >
+              <Youtube size={20} />
+              <span>Watch Tutorial</span>
+            </a>
           </div>
         </div>
 

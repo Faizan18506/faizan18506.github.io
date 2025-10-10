@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github, Youtube } from 'lucide-react';
 import { projectsData } from '../data/projectsData';
 
 export default function Projects() {
@@ -80,20 +80,19 @@ export default function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
-                    className={`flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-gradient-to-r ${project.gradient} text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300`}
+                    className="flex-1 flex items-center justify-center gap-2 px-3 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-all duration-300 hover:scale-105"
                   >
                     <Github size={18} />
-                    <span className="font-medium">GitHub</span>
                   </a>
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      navigate(`/project/${project.id}`);
-                    }}
-                    className="px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-all duration-300 hover:scale-105"
+                  <a
+                    href={project.youtubeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className={`flex-1 flex items-center justify-center gap-2 px-3 py-2 bg-gradient-to-r ${project.gradient} text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300`}
                   >
-                    <ExternalLink size={18} />
-                  </button>
+                    <Youtube size={18} />
+                  </a>
                 </div>
               </div>
 

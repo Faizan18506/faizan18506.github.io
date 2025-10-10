@@ -6,6 +6,7 @@ export interface Project {
   technologies: string[];
   gradient: string;
   githubLink: string;
+  youtubeLink: string;
   screenshots: string[];
   features: string[];
 }
@@ -19,6 +20,7 @@ export const projectsData: Project[] = [
     technologies: ['Kotlin', 'XML', 'Agentic A.i', 'MVVM'],
     gradient: 'from-cyan-500 to-blue-600',
     githubLink: 'https://github.com/Faizan18506/creatimate',
+    youtubeLink: 'https://www.youtube.com/@AndroidComposeDev/videos',
     screenshots: [
       '/projects/ahelps/screenshot-1.jpg',
       '/projects/ahelps/screenshot-2.jpg',
@@ -43,6 +45,7 @@ export const projectsData: Project[] = [
     technologies: ['Kotlin', 'Sockets', 'Firebase', 'Google Maps API', 'MVVM'],
     gradient: 'from-purple-500 to-pink-600',
     githubLink: 'https://play.google.com/store/apps/details?id=com.eagleeye.mysentry',
+    youtubeLink: 'https://www.youtube.com/@AndroidComposeDev/videos',
     screenshots: [
       '/projects/mysentry/screenshot-1.png',
       '/projects/mysentry/screenshot-2.png',
@@ -67,6 +70,7 @@ export const projectsData: Project[] = [
     technologies: ['Kotlin', 'Jetpack Compose', 'ExoPlayer', 'Foreground Service', 'MVVM'],
     gradient: 'from-green-500 to-teal-600',
     githubLink: 'https://github.com/Faizan18506/audioplayer',
+    youtubeLink: 'https://www.youtube.com/@AndroidComposeDev/videos',
     screenshots: [
       '/projects/fitness-tracker/screenshot-1.jpg',
       '/projects/fitness-tracker/screenshot-2.jpg',
@@ -91,6 +95,7 @@ export const projectsData: Project[] = [
     technologies: ['Kotlin', 'Jetpack Compose', 'OpenWeather API'],
     gradient: 'from-blue-500 to-indigo-600',
     githubLink: 'https://github.com/Faizan18506',
+    youtubeLink: 'https://www.youtube.com/@AndroidComposeDev/videos',
     screenshots: [
       '/projects/weather-forecast/screenshot-1.jpg',
       '/projects/weather-forecast/screenshot-2.jpg',
@@ -115,6 +120,7 @@ export const projectsData: Project[] = [
     technologies: ['Flutter', 'Firebase', 'Bloc Pattern'],
     gradient: 'from-orange-500 to-red-600',
     githubLink: 'https://github.com/Faizan18506',
+    youtubeLink: 'https://www.youtube.com/@AndroidComposeDev/videos',
     screenshots: [
       '/projects/task-management/screenshot-1.jpg',
       '/projects/task-management/screenshot-2.jpg',
@@ -139,6 +145,7 @@ export const projectsData: Project[] = [
     technologies: ['Kotlin', 'Firebase', 'Stripe API', 'MVVM'],
     gradient: 'from-yellow-500 to-orange-600',
     githubLink: 'https://github.com/Faizan18506',
+    youtubeLink: 'https://www.youtube.com/@AndroidComposeDev/videos',
     screenshots: [
       '/projects/restaurant-ordering/screenshot-1.jpg',
       '/projects/restaurant-ordering/screenshot-2.jpg',
