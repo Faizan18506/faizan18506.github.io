@@ -42,7 +42,7 @@ export default function About() {
             </div>
             <h3 className="text-2xl font-bold text-white mb-4">Education</h3>
             <p className="text-gray-300 leading-relaxed">
-              Bachelor's degree in <span className="text-cyan-400 font-semibold">Software Engineering</span> from University Of Haripur. Also studied <span className="text-cyan-400 font-semibold">Internet of Things (IoT)</span>, building a strong foundation in emerging technologies.
+              Bachelor's degree in <span className="text-cyan-400 font-semibold">Software Engineering</span> from University Of Haripur. Also studied <span className="text-cyan-400 font-semibold">Internet of Things (IoT)</span> from International University PAF IAST, building a strong foundation in emerging technologies.
             </p>
           </div>
 

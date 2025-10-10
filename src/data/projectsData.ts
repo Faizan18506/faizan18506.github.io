@@ -219,9 +219,9 @@ export const projectsData: Project[] = [
     youtubeLink: 'https://www.youtube.com/@AndroidComposeDev/videos',
     category: 'flutter',
     screenshots: [
-      '/projects/task-management/screenshot-1.jpg',
-      '/projects/task-management/screenshot-2.jpg',
-      '/projects/task-management/screenshot-3.jpg',
+      '/projects/f_cryptoapp/screenshot-1.jpg',
+      '/projects/f_cryptoapp/screenshot-2.jpg',
+      '/projects/f_cryptoapp/screenshot-3.jpg',
     ],
     features: [
       'AI chatbot specialized in cryptocurrency discussions',
@@ -236,7 +236,7 @@ export const projectsData: Project[] = [
     ],
   },
   {
-    id: 'restaurant-ordering',
+    id: 'movo prive',
     name: 'Kids PlayRoom',
     description: 'KidsPlayRoom is an engaging and educational Flutter app designed for children. It offers fun learning activities like counting, ABCs, drawing, YouTube videos, and more — all in one colorful, kid-friendly space.',
     detailedDescription: 'KidsPlayRoom is an interactive Flutter-based learning and entertainment app specially built for kids. It combines education and fun through a collection of modules such as alphabet learning, number counting, drawing boards, and safe YouTube video integration. The app supports subscription-based access for premium content and ensures a playful and intuitive user experience. With smooth navigation, appealing animations, and vibrant UI, KidsPlayRoom encourages children to learn and create while having fun in a digital playroom designed just for them.',
@@ -246,9 +246,9 @@ export const projectsData: Project[] = [
     youtubeLink: 'https://www.youtube.com/@AndroidComposeDev/videos',
     category: 'flutter',
     screenshots: [
-      '/projects/restaurant-ordering/screenshot-1.jpg',
-      '/projects/restaurant-ordering/screenshot-2.jpg',
-      '/projects/restaurant-ordering/screenshot-3.jpg',
+      '/projects/f_kidsroom/screenshot-1.jpg',
+      '/projects/f_kidsroom/screenshot-2.jpg',
+      '/projects/f_kidsroom/screenshot-3.jpg',
     ],
     features: [
       'Interactive learning (ABC, counting, shapes, and colors)',
@@ -261,6 +261,32 @@ export const projectsData: Project[] = [
       'Subscription system for premium features',
 
       'Colorful, safe, and child-friendly UI'
+    ],
+  },
+  {
+    id: 'movo-prive',
+    name: 'Movo Prive',
+    description: 'A comprehensive ride-hailing platform similar to inDrive, connecting passengers with drivers in Pakistan. Features both passenger and driver apps with real-time tracking and secure payments.',
+    detailedDescription: 'Movo Prive is a modern ride-hailing solution designed specifically for the Pakistani market, following the successful model of inDrive. The platform consists of two interconnected apps - one for passengers and one for drivers. Passengers can easily book rides, negotiate fares, and track their drivers in real-time. Drivers can register their vehicles, accept ride requests, and manage their earnings efficiently. The app incorporates local preferences and pricing flexibility where passengers can propose fares and drivers can accept or counter-offer. Built with robust location tracking and real-time updates, the platform ensures reliable service while maintaining user privacy and security. The app includes features like fare estimation, multiple payment options, and comprehensive driver verification systems.',
+    technologies: ['Flutter', 'Firebase', 'Google Maps API', 'Socket.io', 'Payment Gateway'],
+    gradient: 'from-yellow-500 to-orange-600',
+    githubLink: 'https://github.com/Faizan18506/movoprive',
+    youtubeLink: 'https://www.youtube.com/@AndroidComposeDev/videos',
+    category: 'flutter',
+    screenshots: [
+      '/projects/f-movoprive/screenshot-1.jpg',
+      '/projects/f-movoprive/screenshot-2.jpg',
+      '/projects/f-movoprive/screenshot-3.jpg',
+    ],
+    features: [
+      'Dual App Architecture: Separate interfaces for riders and drivers',
+      'Real-time Location Tracking: Live GPS tracking and route visualization',
+      'Fare Negotiation System: Flexible pricing with bidding functionality',
+      'Driver Verification: Complete driver and vehicle documentation system',
+      'Multiple Payment Methods: Cash, cards, and digital wallet support',
+      'Smart Matching Algorithm: Efficient driver-passenger pairing',
+      'In-app Chat & Calling: Built-in communication features',
+      'Trip History & Analytics: Detailed reports for users and drivers'
     ],
   },
 ];

@@ -46,8 +46,8 @@ export default function Hero() {
         </div>
 
         <div className="animate-fade-in-up opacity-0" style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-300 mb-6">
-            Android & Flutter Developer
+          <h2 className="text-2xl sm:text-3xl lg:text-3xl font-semibold text-gray-300 mb-6">
+            Software Engineer | Android Developer | Flutter Developer
           </h2>
         </div>
 
