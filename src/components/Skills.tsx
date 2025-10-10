@@ -49,6 +49,30 @@ export default function Skills() {
       icon: <TestTube size={24} />,
       color: 'from-pink-500 to-rose-600',
     },
+    {
+      name: 'AdMob Integration',
+      level: 80,
+      icon: <TestTube size={24} />,
+      color: 'from-green-500 to-teal-600',
+    },
+     {
+      name: 'Stripe Integration',
+      level: 80,
+      icon: <TestTube size={24} />,
+      color: 'from-orange-500 to-red-600',
+    },
+    {
+      name: 'Coroutines & Flow',
+      level: 80,
+      icon: <TestTube size={24} />,
+      color: 'from-green-500 to-teal-600',
+    },
+    {
+      name: 'SQL & Room Database & Services',
+      level: 80,
+      icon: <TestTube size={24} />,
+      color: 'from-purple-500 to-pink-600',
+    },
   ];
 
   useEffect(() => {
