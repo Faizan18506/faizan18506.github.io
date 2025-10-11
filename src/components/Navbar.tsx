@@ -79,7 +79,7 @@ export default function Navbar() {
                   </div>
                 </div>
                 <a
-                  href="/resume/v0Resume_mobile_engineer.pdf"
+                  href="/resume/v2mobile_engineer.pdf"
                   download
                   className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-sm rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 font-medium"
                 >
