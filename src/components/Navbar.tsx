@@ -46,10 +46,10 @@ export default function Navbar() {
           >
             <button
               onClick={() => scrollToSection('hero')}
-              className="flex items-center gap-3 group"
+              className="flex items-center gap-4 group"
             >
               <div className="relative">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 p-0.5 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 p-[3px] group-hover:scale-105 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-cyan-500/50">
                   <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center overflow-hidden">
                     <img
                       src="/images/profile.jpg"
@@ -60,64 +60,71 @@ export default function Navbar() {
                         e.currentTarget.nextElementSibling!.classList.remove('hidden');
                       }}
                     />
-                    <span className="hidden text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                    <span className="hidden text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
                       FJ
                     </span>
                   </div>
                 </div>
-                <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-gray-900 animate-pulse"></div>
+                <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-green-500 rounded-full border-[3px] border-gray-900 animate-pulse"></div>
               </div>
 
               <div className="hidden md:block text-left">
-                <div className="text-sm font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent group-hover:from-cyan-300 group-hover:to-blue-400 transition-all">
+                <div className="text-base font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent group-hover:from-cyan-300 group-hover:to-blue-400 transition-all">
                   Faizan Javed
                 </div>
-                <div className="text-xs text-gray-400 group-hover:text-gray-300 transition-colors">
+                <div className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors">
                   Mobile App Developer
                 </div>
               </div>
             </button>
 
             {showProfileCard && (
-              <div className="hidden md:block absolute top-full left-0 mt-2 w-72 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl shadow-2xl border border-gray-700 p-4 animate-fade-in-up z-50">
-                <div className="flex items-start gap-4">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 p-0.5 flex-shrink-0">
-                    <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center overflow-hidden">
-                      <img
-                        src="/images/profile.jpg"
-                        alt="Faizan Javed"
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.currentTarget.style.display = 'none';
-                          e.currentTarget.nextElementSibling!.classList.remove('hidden');
-                        }}
-                      />
-                      <span className="hidden text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                        FJ
-                      </span>
+              <div className="hidden md:block absolute top-full left-0 mt-3 w-80 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl shadow-2xl border border-gray-700 overflow-hidden animate-fade-in-up z-50">
+                <div className="relative h-20 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600">
+                  <div className="absolute inset-0 bg-black/20"></div>
+                </div>
+
+                <div className="relative px-5 pb-5">
+                  <div className="flex items-start gap-4 -mt-12">
+                    <div className="w-24 h-24 rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 p-[3px] flex-shrink-0 shadow-xl">
+                      <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center overflow-hidden">
+                        <img
+                          src="/images/profile.jpg"
+                          alt="Faizan Javed"
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            e.currentTarget.style.display = 'none';
+                            e.currentTarget.nextElementSibling!.classList.remove('hidden');
+                          }}
+                        />
+                        <span className="hidden text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                          FJ
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="flex-1 min-w-0 mt-14">
+                      <h3 className="text-xl font-bold text-white mb-1">Faizan Javed</h3>
+                      <p className="text-sm text-cyan-400">@faizan_dev</p>
                     </div>
                   </div>
 
-                  <div className="flex-1 min-w-0">
-                    <h3 className="text-lg font-bold text-white mb-3">Faizan Javed</h3>
-
-                    <div className="space-y-2">
-                      <div className="flex items-start gap-2">
-                        <GraduationCap size={16} className="text-cyan-400 mt-0.5 flex-shrink-0" />
-                        <div>
-                          <div className="text-xs text-gray-400">Education</div>
-                          <div className="text-sm text-white font-medium">BS Computer Science</div>
-                          <div className="text-xs text-gray-500">GCUF, Faisalabad</div>
-                        </div>
+                  <div className="mt-4 space-y-3">
+                    <div className="flex items-start gap-3 p-3 bg-gray-800/50 rounded-lg hover:bg-gray-800 transition-colors">
+                      <GraduationCap size={18} className="text-cyan-400 mt-0.5 flex-shrink-0" />
+                      <div>
+                        <div className="text-xs text-gray-400 mb-1">Education</div>
+                        <div className="text-sm text-white font-medium">BS Computer Science</div>
+                        <div className="text-xs text-gray-500">GCUF, Faisalabad</div>
                       </div>
+                    </div>
 
-                      <div className="flex items-start gap-2">
-                        <Briefcase size={16} className="text-blue-400 mt-0.5 flex-shrink-0" />
-                        <div>
-                          <div className="text-xs text-gray-400">Designation</div>
-                          <div className="text-sm text-white font-medium">Senior Mobile App Developer</div>
-                          <div className="text-xs text-gray-500">Android & Flutter Expert</div>
-                        </div>
+                    <div className="flex items-start gap-3 p-3 bg-gray-800/50 rounded-lg hover:bg-gray-800 transition-colors">
+                      <Briefcase size={18} className="text-blue-400 mt-0.5 flex-shrink-0" />
+                      <div>
+                        <div className="text-xs text-gray-400 mb-1">Designation</div>
+                        <div className="text-sm text-white font-medium">Senior Mobile App Developer</div>
+                        <div className="text-xs text-gray-500">Android & Flutter Expert</div>
                       </div>
                     </div>
                   </div>
