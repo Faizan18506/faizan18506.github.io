@@ -28,6 +28,16 @@ export default function About() {
             About Me
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded-full"></div>
+{/*           
+          <div className="mt-8">
+            <a
+              href="/resume/v0Resume_mobile_engineer.pdf"
+              download
+              className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 font-semibold"
+            >
+              Download CV
+            </a>
+          </div> */}
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -57,7 +67,7 @@ export default function About() {
             </div>
             <h3 className="text-2xl font-bold text-white mb-4">Experience</h3>
             <p className="text-gray-300 leading-relaxed">
-              <span className="text-blue-400 font-semibold">2 years of hands-on experience</span> as an Android Developer at <span className="text-blue-400 font-semibold">Zigron</span>, a product-based company. Contributed to multiple Android applications, focusing on performance optimization and real-time features.
+              <span className="text-blue-400 font-semibold">2 years of hands-on experience</span> as an Android Developer at <a href="https://zigron.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 font-semibold hover:text-blue-300 transition-colors">Zigron Inc</a>, a product-based company. Contributed to multiple Android applications, focusing on performance optimization and real-time features.
             </p>
           </div>
 

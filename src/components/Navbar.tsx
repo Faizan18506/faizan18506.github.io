@@ -69,13 +69,22 @@ export default function Navbar() {
                 <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-green-500 rounded-full border-[3px] border-gray-900 animate-pulse"></div>
               </div>
 
-              <div className="hidden md:block text-left">
-                <div className="text-base font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent group-hover:from-cyan-300 group-hover:to-blue-400 transition-all">
-                  Faizan Javed
+              <div className="hidden md:flex items-center gap-6">
+                <div className="text-left">
+                  <div className="text-base font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent group-hover:from-cyan-300 group-hover:to-blue-400 transition-all">
+                    Faizan Javed
+                  </div>
+                  <div className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors">
+                    Mobile App Developer
+                  </div>
                 </div>
-                <div className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors">
-                  Mobile App Developer
-                </div>
+                <a
+                  href="/resume/v0Resume_mobile_engineer.pdf"
+                  download
+                  className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-sm rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 font-medium"
+                >
+                  Download CV
+                </a>
               </div>
             </button>
 
